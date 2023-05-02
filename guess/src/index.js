@@ -10,6 +10,14 @@ import Layout from './pages/layout';
 import NotFound from './pages/notfound';
 import reportWebVitals from './reportWebVitals';
 
+// I have spent way to long on this and I just can't do it anymore.
+// No idea why setCurrentGuess keeps freezing my app. Looked everywhere online for solutions but jsut can't figure it out.
+// Regardless, I've gotten great practice managing React and its variables, so I'm satisfied. It's very very close and the bulk
+// of the hard work, setting up the app and getting it running (as well as the settings and stats!), seems to be working.
+// I just think that at this point, my time is better spent working towards the final project.
+// When line 34 was uncommented (replacing line 33), for some reason "solution" would always end up null (i.e. NaN) no matter what.
+// React just couldn't handle using maxGuessValue to derive the solution number, I suppose?
+
 export default function GuessApp() {
   // For stats
   const [lifetimeGuesses, setLifetimeGuesses] = useState("0");
